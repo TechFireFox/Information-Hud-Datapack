@@ -21,5 +21,5 @@ scoreboard objectives add yspawn dummy
 scoreboard objectives add zspawn dummy
 scoreboard objectives add hud.settings trigger
 scoreboard players enable @a hud.settings
-tellraw @a ["",{"text":"\u26cf","color":"green"},{"text":" INFORMATION HUB","color":"gold"},{"text":" © 2021 _FireFiro_"}]
+tellraw @a ["",{"text":"\u26cf","color":"green"},{"text":" INFORMATION HUB","color":"gold"},{"text":" © 2021 TechFireFox"}]
 tellraw @a ["","Use ",{"text":"/trigger hud.settings","color":"gold","clickEvent":{"action":"run_command","value":"/trigger hud.settings"},"hoverEvent":{"action":"show_text","contents":[{"text":"Нажми","color":"gray"}]}}," to view settings"]
